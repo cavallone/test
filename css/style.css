@@ -1,0 +1,28 @@
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.navbar-brand-centered {
+        position: absolute;
+        left: 47.5%;
+        display: block;
+        width: 250px;
+        text-align: center;
+        background-color: transparent;
+    }
+    .navbar>.container .navbar-brand-centered, 
+    .navbar>.container-fluid .navbar-brand-centered {
+        margin-left: -80px;
+    }
+
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../img/ring-alt.gif') 50% 50% no-repeat rgb(249,249,249);
+}
